@@ -136,7 +136,7 @@ if(playfield[py][px]=='@')
 void draw_playfield()
 {
 int i,j;
-printf("\033[0;31m");
+printf("\033[0;31m"); //makes the text colour yellow
 printf("\n\n\n\n");
 for(i=0;i < H;i++)
 {
@@ -148,6 +148,18 @@ for(i=0;i < H;i++)
   printf("\n");
 }
 printf("Score is %d ",food_collect);
+}
+int delay(int i)
+{
+    //to delay the funnction
+}
+void sound(int i)
+{
+    //to produce the sound
+}
+void nosound(void)
+{
+    //to produce the sound
 }
 
 void main()
